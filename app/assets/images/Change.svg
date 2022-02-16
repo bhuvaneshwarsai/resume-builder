@@ -1,0 +1,4 @@
+<%= image_tag('empty-screen.png', style:'width: 100%', class:'img-responsive center-block', id:'screen-d') %>
+$("#collapseOne").on('show.bs.collapse',function () {
+        $('#screen-d').attr("src","#{asset_path('empty-screen.png')}");
+    });
